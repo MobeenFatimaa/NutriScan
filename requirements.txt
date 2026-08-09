@@ -1,11 +1,7 @@
-#Web Framework & Utilities
-Flask
-Werkzeug
-
-# Computer Vision & Machine Learning Pipeline
-torch
-torchvision
-Pillow
-
-# WSGI Production Server (for deployment)
-gunicorn
+Flask==3.0.2
+Werkzeug==3.0.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+torchvision==0.17.1+cpu
+Pillow==10.2.0
+gunicorn==21.2.0
