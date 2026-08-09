@@ -1,0 +1,9 @@
+# Python Environment & Cache
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Uploads directory contents
+static/uploads/*
+!static/uploads/.gitkeep

@@ -1,0 +1,11 @@
+#Web Framework & Utilities
+Flask
+Werkzeug
+
+# Computer Vision & Machine Learning Pipeline
+torch
+torchvision
+Pillow
+
+# WSGI Production Server (for deployment)
+gunicorn
