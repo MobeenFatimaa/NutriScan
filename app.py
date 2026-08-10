@@ -1,9 +1,6 @@
 import os
 import json
 import uuid
-import torch
-import torch.nn as nn
-from torchvision import transforms, models
 from PIL import Image
 from flask import Flask, render_template, request, flash, redirect, url_for, session
 from werkzeug.utils import secure_filename
